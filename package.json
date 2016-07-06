@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulWood87/git-it.git"
+    "url": "https://github.com/hugowoodhead/shortId"
   },
   "keywords": [],
   "author": "hw",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulWood87/git-it/issues"
+    "url": "https://github.com/hugowoodhead/shortId/issues"
   },
-  "homepage": "https://github.com/paulWood87/git-it",
+  "homepage": "https://github.com/hugowoodhead/shortId",
   "dependencies": {
     "express": "^4.14.0",
     "mongodb": "^2.1.18",
