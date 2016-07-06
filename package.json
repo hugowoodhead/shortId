@@ -1,0 +1,27 @@
+{
+  "name": "shortId",
+  "version": "1.0.0",
+  "description": "some readme text some changes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulWood87/git-it.git"
+  },
+  "keywords": [],
+  "author": "hw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulWood87/git-it/issues"
+  },
+  "homepage": "https://github.com/paulWood87/git-it",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.1.18",
+    "shortid": "^2.2.6",
+    "valid-url": "^1.0.9"
+  }
+}
