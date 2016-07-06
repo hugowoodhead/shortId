@@ -9,7 +9,7 @@ app.get('/', function(req, res){
   res.send('hello world');
 });
 
-MongoClient.connect(" mongodb://hugowoodhead:Passport1@ds013004.mlab.com:13004/heroku_6xvfsnsf", function(err, db){
+MongoClient.connect(" mongodb://user1:passport@ds013004.mlab.com:13004/heroku_6xvfsnsf", function(err, db){
   if(err) throw err;
   console.log("Successfully connected to MongoDB.");
 
