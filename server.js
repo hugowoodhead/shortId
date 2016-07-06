@@ -40,6 +40,4 @@ MongoClient.connect("mongodb://localhost:27017/shortId", function(err, db){
 
 })
 
-app.listen(3000, function(){
-  console.log('express server listening on port 3000...');
-});
+app.listen(process.env.PORT || 3000);
