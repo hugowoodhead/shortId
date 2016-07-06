@@ -15,7 +15,7 @@ MongoClient.connect("mongodb://localhost:27017/shortId", function(err, db){
 
   app.get('/:shortId', function(req, res){
       var id = req.params.shortId
-      db.collection('shortIds').find({url: id}).toArray(function(err, docs){
+      db.collection('shortIds').find({shortId: id}).toArray(function(err, docs){
       res.send(docs);
     });
   });
